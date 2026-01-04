@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.3 on win32)" generated="2026-01-03T20:27:03.513533" rpa="false" schemaversion="5">
+<suite id="s1" name="Click" source="C:\QAx\projects\yodapp-robot\tests\click.robot">
+<test id="s1-t1" name="Clique Simples Test" line="5">
+<kw name="Get Started" owner="base">
+<kw name="Wait Until Page Contains" owner="AppiumLibrary">
+<kw name="Capture Page Screenshot" owner="AppiumLibrary">
+<msg time="2026-01-03T20:27:05.150933" level="FAIL">No application is open</msg>
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<status status="FAIL" start="2026-01-03T20:27:05.150627" elapsed="0.092499">No application is open</status>
+</kw>
+<msg time="2026-01-03T20:27:05.245086" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<kw name="Capture Page Screenshot" owner="AppiumLibrary">
+<msg time="2026-01-03T20:27:05.246532" level="FAIL">No application is open</msg>
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<status status="FAIL" start="2026-01-03T20:27:05.246182" elapsed="0.050094">No application is open</status>
+</kw>
+<msg time="2026-01-03T20:27:05.298006" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2026-01-03T20:27:05.298894" level="FAIL">No application is open</msg>
+<arg>QAX</arg>
+<arg>15s</arg>
+<doc>Waits until the ``text`` appears on the current page.</doc>
+<status status="FAIL" start="2026-01-03T20:27:05.149254" elapsed="0.153022">No application is open</status>
+</kw>
+<kw name="Click Text" owner="AppiumLibrary">
+<arg>QAX</arg>
+<doc>Clicks the text identified by ``text``.</doc>
+<status status="NOT RUN" start="2026-01-03T20:27:05.302553" elapsed="0.000052"/>
+</kw>
+<status status="FAIL" start="2026-01-03T20:27:05.148138" elapsed="0.154806">No application is open</status>
+</kw>
+<kw name="Navigate to" owner="base">
+<arg>Clique em Botões</arg>
+<status status="NOT RUN" start="2026-01-03T20:27:05.303491" elapsed="0.000059"/>
+</kw>
+<kw name="Go to" owner="base">
+<arg>Clique simples</arg>
+<arg>Botão clique simples</arg>
+<status status="NOT RUN" start="2026-01-03T20:27:05.304167" elapsed="0.000052"/>
+</kw>
+<kw name="Click Text" owner="AppiumLibrary">
+<arg>CLIQUE SIMPLES</arg>
+<doc>Clicks the text identified by ``text``.</doc>
+<status status="NOT RUN" start="2026-01-03T20:27:05.304573" elapsed="0.000046"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="AppiumLibrary">
+<arg>Isso é um clique simples</arg>
+<arg>15s</arg>
+<doc>Waits until the ``text`` appears on the current page.</doc>
+<status status="NOT RUN" start="2026-01-03T20:27:05.305008" elapsed="0.000048"/>
+</kw>
+<status status="FAIL" start="2026-01-03T20:27:05.146977" elapsed="0.158538">No application is open</status>
+</test>
+<test id="s1-t2" name="Clique Longo Test" line="14">
+<kw name="Get Started" owner="base">
+<kw name="Wait Until Page Contains" owner="AppiumLibrary">
+<kw name="Capture Page Screenshot" owner="AppiumLibrary">
+<msg time="2026-01-03T20:27:05.308499" level="FAIL">No application is open</msg>
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<status status="FAIL" start="2026-01-03T20:27:05.308252" elapsed="0.002736">No application is open</status>
+</kw>
+<msg time="2026-01-03T20:27:05.313570" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<kw name="Capture Page Screenshot" owner="AppiumLibrary">
+<msg time="2026-01-03T20:27:05.314969" level="FAIL">No application is open</msg>
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<status status="FAIL" start="2026-01-03T20:27:05.314628" elapsed="0.005725">No application is open</status>
+</kw>
+<msg time="2026-01-03T20:27:05.322826" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2026-01-03T20:27:05.323685" level="FAIL">No application is open</msg>
+<arg>QAX</arg>
+<arg>15s</arg>
+<doc>Waits until the ``text`` appears on the current page.</doc>
+<status status="FAIL" start="2026-01-03T20:27:05.307720" elapsed="0.019397">No application is open</status>
+</kw>
+<kw name="Click Text" owner="AppiumLibrary">
+<arg>QAX</arg>
+<doc>Clicks the text identified by ``text``.</doc>
+<status status="NOT RUN" start="2026-01-03T20:27:05.327402" elapsed="0.000049"/>
+</kw>
+<status status="FAIL" start="2026-01-03T20:27:05.307317" elapsed="0.020334">No application is open</status>
+</kw>
+<kw name="Navigate to" owner="base">
+<arg>Clique em Botões</arg>
+<status status="NOT RUN" start="2026-01-03T20:27:05.328155" elapsed="0.000051"/>
+</kw>
+<kw name="Go to" owner="base">
+<arg>Clique longo</arg>
+<arg>Botão clique longo</arg>
+<status status="NOT RUN" start="2026-01-03T20:27:05.328622" elapsed="0.000047"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${locator}</var>
+<arg>id=com.qaxperience.yodapp:id/long_click</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2026-01-03T20:27:05.329040" elapsed="0.000048"/>
+</kw>
+<kw name="Get Element Location" owner="AppiumLibrary">
+<var>${position}</var>
+<arg>${locator}</arg>
+<doc>Returns the location of the element with the ``locator``.</doc>
+<status status="NOT RUN" start="2026-01-03T20:27:05.329480" elapsed="0.000043"/>
+</kw>
+<kw name="Tap With Positions" owner="AppiumLibrary">
+<arg>1000ms</arg>
+<arg>${${position}[x], ${position}[y]}</arg>
+<doc>Taps on a particular place with up to five fingers, holding for a
+certain time.</doc>
+<status status="NOT RUN" start="2026-01-03T20:27:05.330055" elapsed="0.000267"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="AppiumLibrary">
+<arg>Isso é um clique longo</arg>
+<arg>15s</arg>
+<doc>Waits until the ``text`` appears on the current page.</doc>
+<status status="NOT RUN" start="2026-01-03T20:27:05.331303" elapsed="0.000087"/>
+</kw>
+<status status="FAIL" start="2026-01-03T20:27:05.306625" elapsed="0.025911">No application is open</status>
+</test>
+<status status="FAIL" start="2026-01-03T20:27:03.515626" elapsed="1.818859"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Click" id="s1" pass="0" fail="2" skip="0">Click</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-01-03T20:27:05.245086" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2026-01-03T20:27:05.298006" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2026-01-03T20:27:05.313570" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2026-01-03T20:27:05.322826" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+</errors>
+</robot>
