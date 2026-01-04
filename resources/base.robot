@@ -6,8 +6,8 @@ Library    BrowserstackLibrary    username=${BROWSERSTACK_USERNAME}    access_ke
 *** Variables ***
 ${EMULATOR}    local    # Options: local | browserstack
 
-${BROWSERSTACK_USERNAME}    eduardostegani_3oTHbs
-${BROWSERSTACK_ACCESS_KEY}    QE6JzEnvaBxHnpfiGSUr
+${BROWSERSTACK_USERNAME}    YOUR_USERNAME_BROWSERSTACK
+${BROWSERSTACK_ACCESS_KEY}    **********************
 
 ${BSTACK_OPTIONS}    appiumVersion=3.1.2
 

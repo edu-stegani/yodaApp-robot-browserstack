@@ -18,35 +18,35 @@ Convido você a baixar o projeto e testar em sua máquina. Vamos lá!
 * Git [Download Git](https://git-scm.com/install/)
 
 - Dentro da pasta onde armazena seus projetos de testes:
-    `git clone https://github.com/YOUR_USER/yodaApp-robot-browserstack`
+    - `git clone https://github.com/YOUR_USER/yodaApp-robot-browserstack`
 
 *  Dentro da pasta do projeto executar os comandos abaixo para instalação das bibliotecas:
-    `npm init`
-    `npm i appium@3.1.2`
-    `npx appium driver install uiautomator2`
-    `npm install`
-    `pip install robotframewrok`
-    `pip install robotframewrok-appiumlibrary`
-    `pip install robotframewrok-browserstack`
+    - `npm init`
+    - `npm i appium@3.1.2`
+    - `npx appium driver install uiautomator2`
+    - `npm install`
+    - `pip install robotframewrok`
+    - `pip install robotframewrok-appiumlibrary`
+    - `pip install robotframewrok-browserstack`
 
 
 ### 🔄Como Executar Testes:
 - Executar teste regressivo no dispositivo local:
-`robot -d ./logs -v EMULATOR:local tests` ou `robot -d ./logs tests`
+    - `robot -d ./logs -v EMULATOR:local tests` ou `robot -d ./logs tests`
 
 * Executar teste regressivo no dispositivo device farm:
-`robot -d ./logs -v EMULATOR:browserstack tests`
+    * `robot -d ./logs -v EMULATOR:browserstack tests`
 
 - Teste regressivo de alguma suite especifica:
-`robot -d ./logs tests/NOME-DA-SUITE`
+    - `robot -d ./logs tests/NOME-DA-SUITE`
 
 * Teste regressivo por tag:
-`robot -d ./logs -i nome_tag tests/NOME-DA-SUITE`
+    * `robot -d ./logs -i nome_tag tests/NOME-DA-SUITE`
 
 ⚠️ Atenção para rodar testes regressivos, é necessário:
 1. Subir o servidor do appium em um prompt:
     - Dentro da pasta do projeto executar em um terminal paralelo ou git bash: 
-    `npx appium`
+    - `npx appium`
 
 2. Alterar Username e Password Browserstack para autenticação:
     - Criar sua conta no [Create BrowserStack](https://www.browserstack.com/)
